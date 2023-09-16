@@ -1,3 +1,5 @@
+
+<template>
 <van-form @submit="onSubmit">
   <van-cell-group inset>
     <van-field
@@ -22,3 +24,24 @@
     </van-button>
   </div>
 </van-form>
+
+</template>
+
+
+import { ref } from 'vue';
+
+export default {
+  setup() {
+    const username = ref('');
+    const password = ref('');
+    const onSubmit = (values) => {
+      console.log('submit', values);
+    };
+
+    return {
+      username,
+      password,
+      onSubmit,
+    };
+  },
+};
