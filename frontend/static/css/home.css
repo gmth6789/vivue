@@ -2743,7 +2743,7 @@ uni-movable-area {
     height: 10px
 }
 
-uni-movable-area[hidden] {
+uni-movable-area {
     display: none
 }
 

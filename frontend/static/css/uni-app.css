@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* crmeb颜色变量 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */.copyright[data-v-7e561a65]{width:357px;position:fixed;bottom:16px;left:50%;margin-left:-178px;font-size:10px;color:#999;text-align:center}.copyright .domain[data-v-7e561a65]{color:#478bf1;margin-left:3px}.itemImg-add[data-v-7e561a65]{width:13px;height:18px}.item-img[data-v-7e561a65]{width:15px;height:17px}[data-v-7e561a65] uni-checkbox .uni-checkbox-input{margin-top:-3px}.appLogin[data-v-7e561a65]{margin-top:32px}.appLogin .hds[data-v-7e561a65]{display:flex;justify-content:center;align-items:center;font-size:13px;color:#b4b4b4}.appLogin .hds .line[data-v-7e561a65]{width:37px;height:1px;background:#ccc}.appLogin .hds p[data-v-7e561a65]{margin:0 10px}.appLogin .btn-wrapper[data-v-7e561a65]{display:flex;align-items:center;justify-content:center;margin-top:16px}.appLogin .btn-wrapper .btn[data-v-7e561a65]{display:flex;align-items:center;justify-content:center;width:37px;height:37px;border-radius:50%}.appLogin .btn-wrapper .apple-btn[data-v-7e561a65]{display:flex;align-items:center;justify-content:center;width:135px;height:36px;margin-left:16px;background:#eaeaea;border-radius:18px;font-size:13px}.appLogin .btn-wrapper .apple-btn .icon-s-pingguo[data-v-7e561a65]{color:#333;margin-right:5px;font-size:18px}.appLogin .btn-wrapper .iconfont[data-v-7e561a65]{font-size:21px;color:#fff}.appLogin .btn-wrapper .wx[data-v-7e561a65]{background-color:#61c64f}.appLogin .btn-wrapper .mima[data-v-7e561a65]{background-color:#28b3e9}.appLogin .btn-wrapper .yanzheng[data-v-7e561a65]{background-color:#f89c23}.appLogin .btn-wrapper .pingguo[data-v-7e561a65]{margin-left:32px;background-color:#000}.main-color[data-v-7e561a65]{color:var(--view-theme)}.code img[data-v-7e561a65]{width:100%;height:100%}.acea-row.row-middle uni-input[data-v-7e561a65]{margin-left:10px;display:block}.login-wrapper .login-top[data-v-7e561a65]{height:196px;background-color:var(--view-theme);background-image:url(/static/img/login.cbebf9df.png);background-size:cover;background-repeat:no-repeat}.login-wrapper .login-top uni-image[data-v-7e561a65]{width:101%;height:100%}.login-wrapper .shading[data-v-7e561a65]{display:flex;align-items:center;justify-content:center;width:100%;margin-top:-126px;position:relative;z-index:8}.login-wrapper .shading uni-image[data-v-7e561a65]{width:98px;height:98px;top:21px}.login-wrapper .whiteBg[data-v-7e561a65]{background-color:#fff;margin:-16px 30px 0px 30px;box-shadow:0 2px 14px 0 rgba(0,0,0,.08);border-radius:8px;padding:32px;position:relative;z-index:6}.login-wrapper .whiteBg .tips[data-v-7e561a65]{display:flex;align-items:center;justify-content:center;height:27px;margin:21px;color:#999}.login-wrapper .whiteBg .tips .tips-btn[data-v-7e561a65]{margin:0 17px 0 26px;color:#999;font-weight:700;font-size:17px
+  /* Safari 与 Chrome */}.login-wrapper .whiteBg .tips .tips-btn .line[data-v-7e561a65]{width:43px;height:3px;background:linear-gradient(135deg,var(--view-minorColor),var(--view-theme));border-radius:2px;margin:5px auto 0 auto;animation:myfirst-data-v-7e561a65 .3s;-webkit-animation:myfirst-data-v-7e561a65 .3s}.login-wrapper .whiteBg .tips .tips-btn .none[data-v-7e561a65]{width:43px;background:#fff;height:3px}@keyframes myfirst-data-v-7e561a65{0%{width:0px}100%{width:43px}}@-webkit-keyframes myfirst-data-v-7e561a65{0%{width:0px}100%{width:43px}}.login-wrapper .whiteBg .tips .tips-btn.on[data-v-7e561a65]{font-size:19px;color:var(--view-theme)}.login-wrapper .whiteBg .list[data-v-7e561a65]{border-radius:8px;overflow:hidden}.login-wrapper .whiteBg .list .forgetPwd[data-v-7e561a65]{text-align:right;margin-top:5px;color:#666;font-size:13px}.login-wrapper .whiteBg .list .item[data-v-7e561a65]{border-bottom:1px solid #f0f0f0;background:#fff}.login-wrapper .whiteBg .list .item .row-middle[data-v-7e561a65]{position:relative;padding:8px 13px}.login-wrapper .whiteBg .list .item .row-middle uni-input[data-v-7e561a65]{flex:1;font-size:15px;height:43px}.login-wrapper .whiteBg .list .item .row-middle .code[data-v-7e561a65]{position:absolute;right:16px;top:50%;color:var(--view-theme);font-size:14px;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.login-wrapper .whiteBg .logon[data-v-7e561a65]{display:flex;align-items:center;justify-content:center;width:100%;height:47px;margin-top:26px;background:linear-gradient(135deg,var(--view-minorColor),var(--view-theme));border-radius:65px;color:#fff;font-size:16px}.login-wrapper .protocol[data-v-7e561a65]{margin-top:21px;color:#999;font-size:13px}.login-wrapper .trembling[data-v-7e561a65]{-webkit-animation:shake-data-v-7e561a65 .6s;animation:shake-data-v-7e561a65 .6s}@keyframes shake-data-v-7e561a65{0%,
+  100%{-webkit-transform:translateX(0)}10%,
+  30%,
+  50%,
+  70%,
+  90%{-webkit-transform:translateX(-2px)}20%,
+  40%,
+  60%,
+  80%{-webkit-transform:translateX(2px)}}@-o-keyframes shake-data-v-7e561a65{
+  /* Opera */0%,
+  100%{-webkit-transform:translateX(0)}10%,
+  30%,
+  50%,
+  70%,
+  90%{-webkit-transform:translateX(-2px)}20%,
+  40%,
+  60%,
+  80%{-webkit-transform:translateX(2px)}}@-webkit-keyframes shake-data-v-7e561a65{
+  /* Safari 和 Chrome */0%,
+  100%{-webkit-transform:translateX(0)}10%,
+  30%,
+  50%,
+  70%,
+  90%{-webkit-transform:translateX(-2px)}20%,
+  40%,
+  60%,
+  80%{-webkit-transform:translateX(2px)}}@-moz-keyframes shake-data-v-7e561a65{
+  /* Firefox */0%,
+  100%{-moz-transform:translateX(0)}10%,
+  30%,
+  50%,
+  70%,
+  90%{-moz-transform:translateX(-2px)}20%,
+  40%,
+  60%,
+  80%{-moz-transform:translateX(2px)}}

@@ -53,10 +53,12 @@ background-repeat: no-repeat;">
 <uni-image data-v-27ca9447="">
 <div style="background-image: url(&quot;https://qiniu.crmeb.net/attach/2023/02/22fbb202302161146005483.png&quot;); background-position: 0% 0%; background-size: 100% 100%; background-repeat: no-repeat;">
 </div>
-<!---->
+
 <img src="https://qiniu.crmeb.net/attach/2023/02/22fbb202302161146005483.png" draggable="false">
 </uni-image><uni-view data-v-27ca9447="" class="txt" style="color: rgb(238, 177, 81);">
-<font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ของฉัน</font></font></uni-view><!---->
+<font style="vertical-align: inherit;">
+<font style="vertical-align: inherit;">ของฉัน</font>
+</font></uni-view>
 
 </uni-view>
 </uni-view>
@@ -64,3 +66,11 @@ background-repeat: no-repeat;">
 </uni-view>
 
 </template>
+
+
+<style>
+
+@import "static/css/home.css";
+
+
+</style>
